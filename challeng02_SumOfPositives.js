@@ -65,3 +65,8 @@ arryfltr.filter(function (elem) {
 }
 )
 console.log(sum)
+
+console.log("code_02 with filter and reduce");
+let nwarray= [-1,-4,-8,9,2];
+let summ=nwarray.filter((elem)=> elem>0).reduce( (acc,rec) => acc+rec)
+console.log(summ);
