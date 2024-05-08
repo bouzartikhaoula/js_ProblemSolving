@@ -1,4 +1,4 @@
-let a=[2,4,8,9,1]
+let a=[2,8,3,1,1,9,2]
 //  code01 
 
 let sum1=0;
@@ -15,4 +15,3 @@ let s=a.filter( (lem)=>{
    }}
 )
 console.log(sum2);
-
