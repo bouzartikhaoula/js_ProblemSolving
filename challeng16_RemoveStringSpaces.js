@@ -1,8 +1,12 @@
 
+// function Rspace(elem) {
+// let f= Array.from(elem)
+// let s =new Set(f)
+// s.delete(" ")
+// console.log(s);
+// }
+// Rspace("hi mlp");
 function Rspace(elem) {
-let f= Array.from(elem)
-let s =new Set(f)
-s.delete(" ")
-console.log(s);
+return elem.split(" ").join("")
 }
-Rspace("hi mlp");
+console.log(  Rspace("khaou la"));
