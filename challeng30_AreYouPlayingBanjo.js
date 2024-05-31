@@ -12,3 +12,11 @@ function playingBanjo2(name) {
     
     }
     console.log("code 2",playingBanjo2("rha"));
+
+
+    function playingBanjo3(name) {
+    
+        return /^r/i.test(name)?`${name} play banjo`:`${name} does not play banjo`    
+        
+        }
+        console.log("code 3",playingBanjo3("Rha"));
