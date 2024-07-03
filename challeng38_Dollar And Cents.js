@@ -1,8 +1,8 @@
 function dollar(elem) {
     
     
-        return Number.parseFloat(x).toFixed(2);
+        return elem.toFixed(2);
       }
       
       
-      console.log(dollar("$",123.4));
+      console.log("$",dollar(123.4));
